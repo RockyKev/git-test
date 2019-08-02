@@ -13,17 +13,29 @@
 	<div class="container">
 		<form class="row mt-5" id="form" name="form">
 			<div class="col-sm-4">
-				<p><label>First:</label> <input id="firstNumber" placeholder='1' type="number"></p>
+				<p><label>First:</label> <input id="firstNumber" placeholder='1' type="number" required></p>
 			</div>
 			<div class="col-sm-4">
-				<p><label>Second:</label> <input id="secondNumber" placeholder='2' type="number"></p>
+				<p><label>Second:</label> <input id="secondNumber" placeholder='2' type="number" required></p>
 			</div>
 			<div class="col-sm-4">
-				<p><label>Third:</label> <input id="thirdNumber" placeholder='3' type="number"></p>
+				<p><label>Third:</label> <input id="thirdNumber" placeholder='3' type="number" required></p>
             </div>
         </form>
-
-        <button class="text-center" id="btnCompare">compare</button>
+        <div class="row mt-5 justify-content-md-center">
+                <div class="col col-lg-2">
+                        <button class="text-center btn btn-primary btn-block" id="btnCompare">compare</button>
+                </div>
+                <div class="col-md-auto">
+                        <button class="text-center btn btn-success btn-block" id="btnRandomize">Make this Easy for me</button>                        
+                </div>
+                <div class="col col-lg-2">
+                        <button class="text-center btn btn-secondary btn-block" id="btnAdvance">Advance compare</button>        
+                </div>
+              </div>
+                            
+                          
+       
     </div>
     
 	<hr>
@@ -36,7 +48,7 @@
 	</script> 
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
 	</script> 
-	<script src="sortthreenumbers.js">
+	<script src="sortthreenumbers-bootstrap.js">
 	</script>
 </body>
 </html>
