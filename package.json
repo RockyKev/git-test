@@ -2,11 +2,12 @@
   "name": "git-test",
   "version": "1.0.0",
   "description": "This is git-test",
-  "main": "index.html",
+  "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

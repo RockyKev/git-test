@@ -42,7 +42,7 @@ function compareValues() {
     }
  
   //return the data
-  //document.querySelector("#total").innerHTML = result
+  document.querySelector("#total").innerHTML = result
 
   
 }
